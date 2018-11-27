@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F86FD2E421952DC50009D150 /* MGColorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F86FD2E321952DC50009D150 /* MGColorImageView.m */; };
+		F8D52E64219075A7001A3372 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E63219075A7001A3372 /* AppDelegate.m */; };
+		F8D52E67219075A7001A3372 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E66219075A7001A3372 /* ViewController.m */; };
+		F8D52E6A219075A7001A3372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D52E68219075A7001A3372 /* Main.storyboard */; };
+		F8D52E6C219075A8001A3372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D52E6B219075A8001A3372 /* Assets.xcassets */; };
+		F8D52E6F219075A8001A3372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D52E6D219075A8001A3372 /* LaunchScreen.storyboard */; };
+		F8D52E72219075A8001A3372 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E71219075A8001A3372 /* main.m */; };
+		F8D52E7C219075A8001A3372 /* MGSelectColorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E7B219075A8001A3372 /* MGSelectColorViewTests.m */; };
+		F8D52E87219075A8001A3372 /* MGSelectColorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E86219075A8001A3372 /* MGSelectColorViewUITests.m */; };
+		F8D52E97219172B8001A3372 /* MGSelectColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E96219172B8001A3372 /* MGSelectColorView.m */; };
+		F8D52E9A21917465001A3372 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E9821917465001A3372 /* UIView+Frame.m */; };
+		F8D52E9E219177AA001A3372 /* MGValveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D52E9D219177AA001A3372 /* MGValveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D52E78219075A8001A3372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D52E57219075A7001A3372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D52E5E219075A7001A3372;
+			remoteInfo = MGSelectColorView;
+		};
+		F8D52E83219075A8001A3372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D52E57219075A7001A3372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D52E5E219075A7001A3372;
+			remoteInfo = MGSelectColorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F86FD2E221952DC50009D150 /* MGColorImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGColorImageView.h; sourceTree = "<group>"; };
+		F86FD2E321952DC50009D150 /* MGColorImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGColorImageView.m; sourceTree = "<group>"; };
+		F8D52E5F219075A7001A3372 /* MGSelectColorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGSelectColorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D52E62219075A7001A3372 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8D52E63219075A7001A3372 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8D52E65219075A7001A3372 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8D52E66219075A7001A3372 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8D52E69219075A7001A3372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8D52E6B219075A8001A3372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D52E6E219075A8001A3372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8D52E70219075A8001A3372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D52E71219075A8001A3372 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8D52E77219075A8001A3372 /* MGSelectColorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGSelectColorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D52E7B219075A8001A3372 /* MGSelectColorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGSelectColorViewTests.m; sourceTree = "<group>"; };
+		F8D52E7D219075A8001A3372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D52E82219075A8001A3372 /* MGSelectColorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGSelectColorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D52E86219075A8001A3372 /* MGSelectColorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGSelectColorViewUITests.m; sourceTree = "<group>"; };
+		F8D52E88219075A8001A3372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D52E95219172B8001A3372 /* MGSelectColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGSelectColorView.h; sourceTree = "<group>"; };
+		F8D52E96219172B8001A3372 /* MGSelectColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGSelectColorView.m; sourceTree = "<group>"; };
+		F8D52E9821917465001A3372 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F8D52E9921917465001A3372 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F8D52E9B2191748D001A3372 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F8D52E9C219177AA001A3372 /* MGValveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGValveView.h; sourceTree = "<group>"; };
+		F8D52E9D219177AA001A3372 /* MGValveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGValveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D52E5C219075A7001A3372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D52E74219075A8001A3372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D52E7F219075A8001A3372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D52E56219075A7001A3372 = {
+			isa = PBXGroup;
+			children = (
+				F8D52E61219075A7001A3372 /* MGSelectColorView */,
+				F8D52E7A219075A8001A3372 /* MGSelectColorViewTests */,
+				F8D52E85219075A8001A3372 /* MGSelectColorViewUITests */,
+				F8D52E60219075A7001A3372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D52E60219075A7001A3372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D52E5F219075A7001A3372 /* MGSelectColorView.app */,
+				F8D52E77219075A8001A3372 /* MGSelectColorViewTests.xctest */,
+				F8D52E82219075A8001A3372 /* MGSelectColorViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D52E61219075A7001A3372 /* MGSelectColorView */ = {
+			isa = PBXGroup;
+			children = (
+				F8D52E62219075A7001A3372 /* AppDelegate.h */,
+				F8D52E63219075A7001A3372 /* AppDelegate.m */,
+				F8D52E65219075A7001A3372 /* ViewController.h */,
+				F8D52E66219075A7001A3372 /* ViewController.m */,
+				F8D52E94219075BB001A3372 /* SelectColorView */,
+				F8D52E68219075A7001A3372 /* Main.storyboard */,
+				F8D52E6B219075A8001A3372 /* Assets.xcassets */,
+				F8D52E6D219075A8001A3372 /* LaunchScreen.storyboard */,
+				F8D52E70219075A8001A3372 /* Info.plist */,
+				F8D52E71219075A8001A3372 /* main.m */,
+				F8D52E9B2191748D001A3372 /* PrefixHeader.pch */,
+			);
+			path = MGSelectColorView;
+			sourceTree = "<group>";
+		};
+		F8D52E7A219075A8001A3372 /* MGSelectColorViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D52E7B219075A8001A3372 /* MGSelectColorViewTests.m */,
+				F8D52E7D219075A8001A3372 /* Info.plist */,
+			);
+			path = MGSelectColorViewTests;
+			sourceTree = "<group>";
+		};
+		F8D52E85219075A8001A3372 /* MGSelectColorViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D52E86219075A8001A3372 /* MGSelectColorViewUITests.m */,
+				F8D52E88219075A8001A3372 /* Info.plist */,
+			);
+			path = MGSelectColorViewUITests;
+			sourceTree = "<group>";
+		};
+		F8D52E94219075BB001A3372 /* SelectColorView */ = {
+			isa = PBXGroup;
+			children = (
+				F8D52E95219172B8001A3372 /* MGSelectColorView.h */,
+				F8D52E96219172B8001A3372 /* MGSelectColorView.m */,
+				F8D52E9C219177AA001A3372 /* MGValveView.h */,
+				F8D52E9D219177AA001A3372 /* MGValveView.m */,
+				F86FD2E221952DC50009D150 /* MGColorImageView.h */,
+				F86FD2E321952DC50009D150 /* MGColorImageView.m */,
+				F8D52E9921917465001A3372 /* UIView+Frame.h */,
+				F8D52E9821917465001A3372 /* UIView+Frame.m */,
+			);
+			path = SelectColorView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D52E5E219075A7001A3372 /* MGSelectColorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D52E8B219075A8001A3372 /* Build configuration list for PBXNativeTarget "MGSelectColorView" */;
+			buildPhases = (
+				F8D52E5B219075A7001A3372 /* Sources */,
+				F8D52E5C219075A7001A3372 /* Frameworks */,
+				F8D52E5D219075A7001A3372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSelectColorView;
+			productName = MGSelectColorView;
+			productReference = F8D52E5F219075A7001A3372 /* MGSelectColorView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D52E76219075A8001A3372 /* MGSelectColorViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D52E8E219075A8001A3372 /* Build configuration list for PBXNativeTarget "MGSelectColorViewTests" */;
+			buildPhases = (
+				F8D52E73219075A8001A3372 /* Sources */,
+				F8D52E74219075A8001A3372 /* Frameworks */,
+				F8D52E75219075A8001A3372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D52E79219075A8001A3372 /* PBXTargetDependency */,
+			);
+			name = MGSelectColorViewTests;
+			productName = MGSelectColorViewTests;
+			productReference = F8D52E77219075A8001A3372 /* MGSelectColorViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8D52E81219075A8001A3372 /* MGSelectColorViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D52E91219075A8001A3372 /* Build configuration list for PBXNativeTarget "MGSelectColorViewUITests" */;
+			buildPhases = (
+				F8D52E7E219075A8001A3372 /* Sources */,
+				F8D52E7F219075A8001A3372 /* Frameworks */,
+				F8D52E80219075A8001A3372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D52E84219075A8001A3372 /* PBXTargetDependency */,
+			);
+			name = MGSelectColorViewUITests;
+			productName = MGSelectColorViewUITests;
+			productReference = F8D52E82219075A8001A3372 /* MGSelectColorViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D52E57219075A7001A3372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = maling;
+				TargetAttributes = {
+					F8D52E5E219075A7001A3372 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F8D52E76219075A8001A3372 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F8D52E5E219075A7001A3372;
+					};
+					F8D52E81219075A8001A3372 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F8D52E5E219075A7001A3372;
+					};
+				};
+			};
+			buildConfigurationList = F8D52E5A219075A7001A3372 /* Build configuration list for PBXProject "MGSelectColorView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D52E56219075A7001A3372;
+			productRefGroup = F8D52E60219075A7001A3372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D52E5E219075A7001A3372 /* MGSelectColorView */,
+				F8D52E76219075A8001A3372 /* MGSelectColorViewTests */,
+				F8D52E81219075A8001A3372 /* MGSelectColorViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D52E5D219075A7001A3372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D52E6F219075A8001A3372 /* LaunchScreen.storyboard in Resources */,
+				F8D52E6C219075A8001A3372 /* Assets.xcassets in Resources */,
+				F8D52E6A219075A7001A3372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D52E75219075A8001A3372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D52E80219075A8001A3372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D52E5B219075A7001A3372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D52E97219172B8001A3372 /* MGSelectColorView.m in Sources */,
+				F8D52E9E219177AA001A3372 /* MGValveView.m in Sources */,
+				F8D52E67219075A7001A3372 /* ViewController.m in Sources */,
+				F8D52E72219075A8001A3372 /* main.m in Sources */,
+				F8D52E9A21917465001A3372 /* UIView+Frame.m in Sources */,
+				F8D52E64219075A7001A3372 /* AppDelegate.m in Sources */,
+				F86FD2E421952DC50009D150 /* MGColorImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D52E73219075A8001A3372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D52E7C219075A8001A3372 /* MGSelectColorViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D52E7E219075A8001A3372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D52E87219075A8001A3372 /* MGSelectColorViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D52E79219075A8001A3372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D52E5E219075A7001A3372 /* MGSelectColorView */;
+			targetProxy = F8D52E78219075A8001A3372 /* PBXContainerItemProxy */;
+		};
+		F8D52E84219075A8001A3372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D52E5E219075A7001A3372 /* MGSelectColorView */;
+			targetProxy = F8D52E83219075A8001A3372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D52E68219075A7001A3372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D52E69219075A7001A3372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D52E6D219075A8001A3372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D52E6E219075A8001A3372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D52E89219075A8001A3372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8D52E8A219075A8001A3372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D52E8C219075A8001A3372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MGSelectColorView/PrefixHeader.pch";
+				INFOPLIST_FILE = MGSelectColorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGSelectColorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D52E8D219075A8001A3372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MGSelectColorView/PrefixHeader.pch";
+				INFOPLIST_FILE = MGSelectColorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGSelectColorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8D52E8F219075A8001A3372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGSelectColorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGSelectColorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGSelectColorView.app/MGSelectColorView";
+			};
+			name = Debug;
+		};
+		F8D52E90219075A8001A3372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGSelectColorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGSelectColorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGSelectColorView.app/MGSelectColorView";
+			};
+			name = Release;
+		};
+		F8D52E92219075A8001A3372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGSelectColorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGSelectColorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGSelectColorView;
+			};
+			name = Debug;
+		};
+		F8D52E93219075A8001A3372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGSelectColorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGSelectColorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGSelectColorView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D52E5A219075A7001A3372 /* Build configuration list for PBXProject "MGSelectColorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D52E89219075A8001A3372 /* Debug */,
+				F8D52E8A219075A8001A3372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D52E8B219075A8001A3372 /* Build configuration list for PBXNativeTarget "MGSelectColorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D52E8C219075A8001A3372 /* Debug */,
+				F8D52E8D219075A8001A3372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D52E8E219075A8001A3372 /* Build configuration list for PBXNativeTarget "MGSelectColorViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D52E8F219075A8001A3372 /* Debug */,
+				F8D52E90219075A8001A3372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D52E91219075A8001A3372 /* Build configuration list for PBXNativeTarget "MGSelectColorViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D52E92219075A8001A3372 /* Debug */,
+				F8D52E93219075A8001A3372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D52E57219075A7001A3372 /* Project object */;
+}
